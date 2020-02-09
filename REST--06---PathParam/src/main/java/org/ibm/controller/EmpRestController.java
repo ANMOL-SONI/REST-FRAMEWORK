@@ -16,7 +16,7 @@ public class EmpRestController {
     public String showData(
     												@BeanParam Emp emp
     												) {
-		System.out.println("------5 Commit------");
+		System.out.println("------6 Commit------");
 		
 //    	        return emp.toString();
     	        return new StringBuffer()
