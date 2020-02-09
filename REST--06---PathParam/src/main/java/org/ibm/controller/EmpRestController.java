@@ -16,6 +16,8 @@ public class EmpRestController {
     public String showData(
     												@BeanParam Emp emp
     												) {
+		System.out.println("------2/1 Commit------");
+		
 //    	        return emp.toString();
     	        return new StringBuffer()
     	        		.append("  ID is ::  ")
@@ -25,6 +27,7 @@ public class EmpRestController {
     	        		.append("  SAL is ::  ")
     	        		.append(emp.getEmpSal())
     	        		.toString();
+    	        
     	        
     }
 }
