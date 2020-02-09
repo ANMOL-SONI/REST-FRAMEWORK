@@ -12,9 +12,6 @@ public class GetTableRestController {
     public String showData(
     												@FormParam ("box")int box
     												) {
-    	
-    	System.out.println("---------Now I just Update the File And Saved it-------");
-    	
     	String msg=null;
     	
     	int a=Math.round(box/4);
